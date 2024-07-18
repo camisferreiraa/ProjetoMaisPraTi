@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(245, 245, 245);
+    font-family:"Montserrat", sans-serif;
+}
+
+.bg-light{
+    background-color: pink !important;
+}
+
+.logo {
+    width: 100px;
+}
+
+.border-rd {
+    border-radius: 10px;
+}
+
+.rodape {
+    background-color: #171717;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    
+}
+
+.carousel-inner img {
+    width: 80%;
+    height: 500px; 
+  }
+
+
+
