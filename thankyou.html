@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado pelo Agendamento</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="vh-100 d-flex flex-column">
+    <div class="container mt-5">
+        <h1 class="text-center">Obrigado pelo Agendamento!</h1>
+        <div id="confirmation-details" class="mt-4"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const bookingDetails = JSON.parse(localStorage.getItem('bookingDetails'));
+            if (bookingDetails) {
+                const detailsContainer = document.getElementById('confirmation-details');
+                detailsContainer.innerHTML = `
+                    <p><strong>Nome:</strong> ${bookingDetails.name}</p>
+                    <p><strong>Email:</strong> ${bookingDetails.email}</p>
+                    <p><strong>Serviço:</strong> ${bookingDetails.service}</p>
+                    <p><strong>Data:</strong> ${bookingDetails.date}</p>
+                    <p><strong>Horário:</strong> ${bookingDetails.time}</p>
+                `;
+            } else {
+                detailsContainer.innerHTML = '<p>Não foram encontrados detalhes de agendamento.</p>';
+            }
+        });
+    </script>
+</body>
+</html>
