@@ -43,3 +43,26 @@ services.forEach(service => {
 document.getElementById('clear-order').onclick = () => {
     orderListContainer.innerHTML = '';
 };
+
+document.getElementById('confirm-selection').addEventListener('click', function() {
+    const selectedServices = [];
+    document.getElementById('#order-list').forEach(ul => {
+        if (ul) {
+            selectedServices.push(ul.value);
+        }
+    });
+
+    const date = document.getElementById('date').value;
+    const time = document.getElementById('time').value;
+
+    if (selectedServices.length === 0 || !date || !time) {
+        alert('Por favor, selecione pelo menos um serviço, uma data e um horário.');
+        return;
+    }
+
+    localStorage.setItem('selectedServices', JSON.stringify(selectedServices));
+    localStorage.setItem('appointmentDate', date);
+    localStorage.setItem('appointmentTime', time);
+
+    window.location.href = '/thankyou.html';
+});

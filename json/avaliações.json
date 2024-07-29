@@ -1,0 +1,104 @@
+[
+    {
+      "cliente": "Ana Souza",
+      "avaliacao": 5,
+      "comentario": "Excelente atendimento e ótimos profissionais! Amei o resultado."
+    },
+    {
+      "cliente": "Carlos Lima",
+      "avaliacao": 4,
+      "comentario": "Gostei muito, recomendo! Ambiente agradável."
+    },
+    {
+      "cliente": "Mariana Ferreira",
+      "avaliacao": 5,
+      "comentario": "Serviço impecável, minha manicure nunca ficou tão bonita."
+    },
+    {
+      "cliente": "José Almeida",
+      "avaliacao": 4,
+      "comentario": "Bom atendimento e preço justo. Voltarei com certeza."
+    },
+    {
+      "cliente": "Luciana Oliveira",
+      "avaliacao": 5,
+      "comentario": "Profissionais qualificados e super atenciosos. Amei o cuidado com os detalhes."
+    },
+    {
+      "cliente": "Fernando Santos",
+      "avaliacao": 5,
+      "comentario": "Ambiente limpo e organizado. Resultado final perfeito."
+    },
+    {
+      "cliente": "Raquel Silva",
+      "avaliacao": 4,
+      "comentario": "Fiquei muito satisfeita com o atendimento e o serviço. Recomendado!"
+    },
+    {
+      "cliente": "Paulo Costa",
+      "avaliacao": 5,
+      "comentario": "Melhor experiência que já tive! As unhas ficaram ótimas."
+    },
+    {
+      "cliente": "Carla Mendes",
+      "avaliacao": 5,
+      "comentario": "Profissionais atenciosos e muito habilidosos. O resultado ficou lindo!"
+    },
+    {
+      "cliente": "Juliana Ramos",
+      "avaliacao": 4,
+      "comentario": "Gostei muito do serviço, mas poderia ter mais opções de esmaltes."
+    },
+    {
+      "cliente": "Ricardo Nunes",
+      "avaliacao": 5,
+      "comentario": "Ambiente aconchegante e atendimento de primeira. Minhas unhas ficaram incríveis."
+    },
+    {
+      "cliente": "Fernanda Martins",
+      "avaliacao": 5,
+      "comentario": "Super recomendo! As manicures são muito profissionais e caprichosas."
+    },
+    {
+      "cliente": "Tiago Rocha",
+      "avaliacao": 4,
+      "comentario": "Bom serviço e atendimento rápido. Voltarei com certeza."
+    },
+    {
+      "cliente": "Camila Azevedo",
+      "avaliacao": 5,
+      "comentario": "Adorei o resultado, minhas unhas nunca ficaram tão bonitas."
+    },
+    {
+      "cliente": "Fábio Rodrigues",
+      "avaliacao": 5,
+      "comentario": "Atendimento excelente e ambiente muito agradável. Recomendo!"
+    },
+    {
+      "cliente": "Patrícia Lima",
+      "avaliacao": 4,
+      "comentario": "Serviço de qualidade e atendimento amigável. Boa experiência."
+    },
+    {
+      "cliente": "Rafael Oliveira",
+      "avaliacao": 5,
+      "comentario": "As manicures são muito talentosas. Fiquei muito satisfeito com o resultado."
+    },
+    {
+      "cliente": "Sofia Costa",
+      "avaliacao": 5,
+      "comentario": "Profissionais dedicadas e ambiente super agradável. Recomendo!"
+    },
+    {
+      "cliente": "Andréa Melo",
+      "avaliacao": 5,
+      "comentario": "Amei o resultado final! Minhas unhas estão lindas e bem cuidadas."
+    },
+    {
+      "cliente": "Marcelo Sousa",
+      "avaliacao": 4,
+      "comentario": "Bom serviço, mas poderia ter mais variedade de tratamentos."
+    }
+  ]
+  
+  

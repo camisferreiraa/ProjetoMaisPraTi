@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanessa Nails - Serviços</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="/img/Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .navbar-brand, .nav-link {
+            font-size: 1.1rem;
+        }
+        .btn-primary {
+            display: inline-block;
+            margin: 10px 0;
+        }
+        .footer p, .footer ul, .footer a {
+            margin-bottom: 10px;
+        }
+        .footer ul {
+            padding-left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://wa.link/uyfd6x" target="_blank">
+            <img class="logo" src="img/Logos/Simbolo fd Branco.svg" alt="logo" style="width: 40px;">
+            Vanessa Nails
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services-page.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">Contatos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="ml-auto">
+            <a href="contacts.html" class="btn btn-primary">
+                <i class="bi bi-calendar-check"></i> Marcar um Horário
+            </a>
+        </div>
+    </nav>
+</header>
+
+<div class="container mt-5">
+    <h1 class="text-center">Serviços de Manicure e Pedicure</h1>
+    <div class="row mt-4">
+        <div class="col-md-8">
+            <div class="row" id="service-cards">
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h2>Lista de Pedidos</h2>
+            <ul class="list-group" id="order-list">
+              
+            </ul>
+            <button class="btn btn-danger mt-3" id="clear-order">Limpar Lista</button>
+
+            <div class="form-group">
+                <label for="date">Data</label>
+                <input type="date" class="form-control" id="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Horário</label>
+                <input type="time" class="form-control" id="time" required>
+            </div>
+            <button id="confirm-selection" type="submit" class="btn btn-primary">Agendar</button>
+        </div>
+    </div>
+</div>
+
+<footer class="footer bg-dark text-light py-4 mt-auto">
+    <div class="container">
+        <div class="row">
+           
+        </div>
+    </div>
+    <div class="bg-secondary text-center py-2 mt-3">
+        <p class="mb-0">&copy; 2024 Vanessa Nails. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/services.js"></script>
+</body>
+</html>
